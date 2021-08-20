@@ -49,7 +49,9 @@ export enum FOUND_GROUP {
 export const Timeline = [
   { id: 'emergency', label: 'ボタン' },
   { id: 'report', label: 'レポート' },
+  { id: 'safety', label: '白位置' },
   { id: 'accused', label: '容疑者' },
+  { id: 'unwatch', label: '浮き位置' },
   { id: 'pair', label: 'ライン' }
 ]
 

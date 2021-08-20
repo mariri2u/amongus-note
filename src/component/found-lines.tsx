@@ -46,7 +46,7 @@ function FoundLines (props: Props) {
     return (
       <Box component='div' display='flex' alignItems='center'>
         <FormControl style={formStyles}>
-          <InputLabel>場所</InputLabel>
+          <InputLabel>盤面</InputLabel>
           <Select native defaultValue='' key={resetKey}>
             <option value='' />
             <optgroup label={FOUND_GROUP.TIMELINE}>
